@@ -1,0 +1,29 @@
+.import-image-label-input {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  cursor: default;
+  opacity: 0;
+}
+.import-image-label-text {
+  text-decoration: underline;
+  color: lightskyblue;
+  cursor: pointer;
+}
+.fill {
+  height: 100vh;
+}
+.content-overlay {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: opacity(0.6) brightness(88%) blur(4px);
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+}
+.main-meme {
+  z-index: 999;
+}
